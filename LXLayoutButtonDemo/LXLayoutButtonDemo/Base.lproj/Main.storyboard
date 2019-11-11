@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YO5-sc-teX">
+                                <rect key="frame" x="10" y="84" width="100" height="40"/>
+                                <color key="backgroundColor" red="0.30196078430000001" green="0.56078431370000004" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="ui7-To-hYi"/>
+                                    <constraint firstAttribute="height" constant="40" id="ymR-Lw-Jae"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="布局效果">
+                                    <color key="titleColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7f-ok-OCk">
+                                <rect key="frame" x="20" y="184" width="100" height="70"/>
+                                <color key="backgroundColor" red="0.30196078430000001" green="0.56078431370000004" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="0wt-NL-k1c"/>
+                                    <constraint firstAttribute="width" constant="100" id="taM-2Y-qSq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="布局效果">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h41-in-aOv">
+                                <rect key="frame" x="304" y="84" width="100" height="40"/>
+                                <color key="backgroundColor" red="0.30196078430000001" green="0.56078431370000004" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="GGF-mv-s3y"/>
+                                    <constraint firstAttribute="height" constant="40" id="o2e-Sa-Oay"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="布局效果">
+                                    <color key="titleColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sc5-Nw-uuE">
+                                <rect key="frame" x="344" y="184" width="50" height="70"/>
+                                <color key="backgroundColor" red="0.30196078430000001" green="0.56078431370000004" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="0bc-eS-UQv"/>
+                                    <constraint firstAttribute="height" constant="70" id="xU9-Ho-WuL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="布局效果">
+                                    <color key="titleColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVV-7y-BC5">
+                                <rect key="frame" x="125" y="184" width="100" height="70"/>
+                                <color key="backgroundColor" red="0.30196078430000001" green="0.56078431370000004" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="默认效果" image="test_nor">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="highlighted" image="test_hl"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9GD-HQ-ik1">
+                                <rect key="frame" x="115" y="84" width="100" height="40"/>
+                                <color key="backgroundColor" red="0.30196078430000001" green="0.56078431370000004" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="默认效果" image="test_nor">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="highlighted" image="test_hl"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TcA-RU-Bhy">
+                                <rect key="frame" x="125" y="316" width="100" height="70"/>
+                                <color key="backgroundColor" red="0.30196078430000001" green="0.56078431370000004" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="布局效果">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="highlighted" image="test_hl"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WNt-Mc-cNI">
+                                <rect key="frame" x="20" y="316" width="100" height="70"/>
+                                <color key="backgroundColor" red="0.30196078430000001" green="0.56078431370000004" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="8SC-IU-Jgm"/>
+                                    <constraint firstAttribute="width" constant="100" id="OrQ-cF-je7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="布局效果">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qVV-7y-BC5" firstAttribute="top" secondItem="q7f-ok-OCk" secondAttribute="top" id="1pT-01-Hwe"/>
+                            <constraint firstItem="TcA-RU-Bhy" firstAttribute="top" secondItem="WNt-Mc-cNI" secondAttribute="top" id="BAY-f5-cLb"/>
+                            <constraint firstItem="Sc5-Nw-uuE" firstAttribute="top" secondItem="h41-in-aOv" secondAttribute="bottom" constant="60" id="CXu-SH-hbK"/>
+                            <constraint firstItem="WNt-Mc-cNI" firstAttribute="top" secondItem="q7f-ok-OCk" secondAttribute="bottom" constant="62" id="DDX-tV-TJs"/>
+                            <constraint firstItem="q7f-ok-OCk" firstAttribute="top" secondItem="YO5-sc-teX" secondAttribute="bottom" constant="60" id="MSj-hg-7AN"/>
+                            <constraint firstItem="WNt-Mc-cNI" firstAttribute="leading" secondItem="q7f-ok-OCk" secondAttribute="leading" id="OKm-bl-q7u"/>
+                            <constraint firstItem="9GD-HQ-ik1" firstAttribute="width" secondItem="YO5-sc-teX" secondAttribute="width" id="R2y-sf-Zet"/>
+                            <constraint firstItem="qVV-7y-BC5" firstAttribute="leading" secondItem="q7f-ok-OCk" secondAttribute="trailing" constant="5" id="RfX-hU-3VO"/>
+                            <constraint firstItem="TcA-RU-Bhy" firstAttribute="height" secondItem="qVV-7y-BC5" secondAttribute="height" id="TzE-vg-sbE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="h41-in-aOv" secondAttribute="trailing" constant="-10" id="V9L-r1-nEf"/>
+                            <constraint firstItem="h41-in-aOv" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="40" id="ZdD-9a-0KQ"/>
+                            <constraint firstItem="9GD-HQ-ik1" firstAttribute="leading" secondItem="YO5-sc-teX" secondAttribute="trailing" constant="5" id="Zz1-fr-Rj4"/>
+                            <constraint firstItem="qVV-7y-BC5" firstAttribute="width" secondItem="q7f-ok-OCk" secondAttribute="width" id="dWA-R3-ZCh"/>
+                            <constraint firstItem="TcA-RU-Bhy" firstAttribute="width" secondItem="qVV-7y-BC5" secondAttribute="width" id="dmg-DO-9zf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Sc5-Nw-uuE" secondAttribute="trailing" id="fEc-IS-6gr"/>
+                            <constraint firstItem="9GD-HQ-ik1" firstAttribute="height" secondItem="YO5-sc-teX" secondAttribute="height" id="gzf-Go-zu0"/>
+                            <constraint firstItem="9GD-HQ-ik1" firstAttribute="top" secondItem="YO5-sc-teX" secondAttribute="top" id="hHc-oe-PgK"/>
+                            <constraint firstItem="TcA-RU-Bhy" firstAttribute="leading" secondItem="WNt-Mc-cNI" secondAttribute="trailing" constant="5" id="kTQ-ub-2uG"/>
+                            <constraint firstItem="qVV-7y-BC5" firstAttribute="height" secondItem="q7f-ok-OCk" secondAttribute="height" id="m6F-Tp-cE1"/>
+                            <constraint firstItem="YO5-sc-teX" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="40" id="mV9-MA-ENU"/>
+                            <constraint firstItem="q7f-ok-OCk" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="tjI-Co-JMs"/>
+                            <constraint firstItem="YO5-sc-teX" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-10" id="vnJ-07-1Lq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button1" destination="YO5-sc-teX" id="ZMA-8o-g7V"/>
+                        <outlet property="button2" destination="h41-in-aOv" id="Fgf-Hs-z1V"/>
+                        <outlet property="button3" destination="q7f-ok-OCk" id="LBI-cr-W6w"/>
+                        <outlet property="button4" destination="Sc5-Nw-uuE" id="0Zp-dC-cO7"/>
+                        <outlet property="button5" destination="WNt-Mc-cNI" id="iCH-Bx-WQ3"/>
+                        <outlet property="button6" destination="TcA-RU-Bhy" id="0fM-4d-jUf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-304" y="-375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="test_hl" width="30.5" height="30.5"/>
+        <image name="test_nor" width="30.5" height="30.5"/>
+    </resources>
+</document>
